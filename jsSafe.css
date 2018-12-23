@@ -1,0 +1,16 @@
+@keyframes spin{
+    from { transform: rotate(0);}
+    to { transform: rotate(360);}
+}
+.cube div {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: rgba(0,0,0,0.51);
+    box-shadow: inset 0 0 60px white;
+    font-size: 20px text-align: center;
+    line-height: 200px;
+    color rgba(0,0,0,0.5);
+    font-family: sans-serif;
+    trext-transofrm: uppercase;
+}
